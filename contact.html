@@ -195,37 +195,44 @@
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s"><h4 class="mb-4">Your Dream Plot Is One Message Away <a href="">Reach Out Today!</a></h4>
                             
-                            <form action="https://formsubmit.co/rohit.a.chourey@gmail.com" method="POST">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="acfdb555-5243-491a-a13d-15d3963907d3">
+
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                            <label for="name">Your Name</label>
+                                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                                            <label>Your Name</label>
                                         </div>
                                     </div>
+
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                            <label for="email">Your Email</label>
+                                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                            <label>Your Email</label>
                                         </div>
                                     </div>
+
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                            <label for="subject">Subject</label>
+                                            <input type="text" class="form-control" name="subject" placeholder="Subject">
+                                            <label>Subject</label>
                                         </div>
                                     </div>
+
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
-                                            <label for="message">Message</label>
+                                            <textarea class="form-control" name="message" placeholder="Your Message" style="height:150px" required></textarea>
+                                            <label>Message</label>
                                         </div>
                                     </div>
+
                                     <div class="col-12">
                                         <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>
+
 
                         </div>
                     </div>
